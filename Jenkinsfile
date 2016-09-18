@@ -1,4 +1,4 @@
-node('test-slave') {
+node('test') {
   stage('checkout the project') {
     checkout(
       [
