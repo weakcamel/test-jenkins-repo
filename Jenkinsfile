@@ -18,6 +18,6 @@ node('test') {
 
   }
   stage('Build the project') {
-    echo 'llll'
+    echo 'Building job ${env.JOB_NAME} branch ${env.BRANCH_NAME}'
   }
 }
